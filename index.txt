@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>home</title>
+      <!--meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="" />
+      <script>
+         addEventListener("load", function () {
+         	setTimeout(hideURLbar, 0);
+         }, false);
+         
+         function hideURLbar() {
+         	window.scrollTo(0, 1);
+         }
+      </script>
+      <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/font-awesome.css" rel="stylesheet">
+      <!-- //font-awesome icons -->
+      <!--stylesheets-->
+      <!--jquery-css counter time-->
+      <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
+      <!--prettyPhoto slider-->
+      <!--stylesheets-->
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="http://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+   </head>
+   <body style="background-image:C:\Users\asud66\Desktop\moban2811\images\g4.jpg; background-repeat:repeat-y;">
+      <div class="header-outs" id="home">
+         <div class="header-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav ">
+                     <li class="nav-item active">
+                        <a class="nav-link" style="font-size:25px" href="#">主页<span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#about"  style="font-size:25px" class="nav-link scroll">发起组队</a>
+						<style>
+						.nav-link scroll{font-size:32px;}
+						</style>
+                     </li>
+                     <li class="nav-item">
+					 <p font-size:30px>
+                        <a href="#services" style="font-size:25px" class="nav-link scroll">搜索组队</a>
+						</p>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#gallery" style="font-size:25px" class="nav-link scroll">我的组队</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#testimonials" style="font-size:25px" class="nav-link scroll">注册</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#contact" style="font-size:25px" class="nav-link scroll">登录</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+            <div class="clearfix"> </div>
+         </div>
+         <!-- //Navigation -->
+         <!-- Slideshow 4 -->
+         <div class="slider">
+            <div class="callbacks_container">
+               <ul class="rslides" id="slider4">
+                  <li>
+                     <div class="slider-img">
+                        <div class="container">
+                           <div class="slider-info">
+                              <span style="font-size:50pt;color:#ff9900">快速组队& <br>优质服务</span >
+                              <p></p>
+                              <div class="outs_more-buttn">
+                                 <a href="#about" class="scroll">Learn More</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img ">
+                        <div class="container">
+                           <div class="slider-info">
+                              <h4>快速组队& <br>优质服务</h4>
+                              <p></p>
+                              <div class="outs_more-buttn">
+                                 <a href="#about" class="scroll">Learn More</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="clearfix"> </div>
+            <div class="banner_social">
+               <ul class="its_social_list">
+                  
+               </ul>
+            </div>
+         </div>
+         <!-- This is here just to demonstrate the callbacks -->
+         <!-- <ul class="events">
+            <li>Example 4 callback events</li>
+            </ul>-->
+      </div>
+      <!-- //banner -->
+     
+
+     
+      
+      <!--Price-tags -->
+      <div class="price-table">
+         <div class="container">
+            <h3 class="title clr">Join Us Now!</h3>
+            <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-6 price-agile-list">
+                  <div class="pricing text-center">
+                     <div class="pricing-top">
+                        <p>
+                        <em>?</em>
+						</p>
+                        <span>体育</span>
+                     </div>
+                     <ul>
+                        <li>羽毛球</li>
+                        <li>乒乓球</li>
+                        <li>网球</li>
+                        <li>More...</li>
+                         <li class="__web-inspector-hide-shortcut__"></li>
+                     </ul>
+                     <div class="btn"><a href="#contact" class="scroll">Order Now</a></div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6 price-agile-list">
+                  <div class="pricing text-center">
+                      <div class="pricing-top">
+                        <p><sup>?</sup><em>?</em></p>
+                        <span>拼车</span>
+                     </div>
+                     <ul>
+                        <li>保安车</li>
+                        <li>出租车</li>
+                        <li>滴滴车</li>
+                        <li>More</li>
+                        <li class="__web-inspector-hide-shortcut__"></li>
+                     </ul>
+                     <div class="btn"><a href="#contact" class="scroll">Order Now</a></div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6 price-agile-list">
+                  <div class="pricing text-center">
+                     <div class="pricing-top">
+                        <p><sup>?</sup><em>?</em></p>
+                        <span>学习</span>
+                     </div>
+                     <ul>
+                        <li>sitp</li>
+                        <li>上创</li>
+                        <li>国创</li>
+                        <li>More</li>
+                        <li class="__web-inspector-hide-shortcut__"></li>
+                     </ul>
+                     <div class="btn"><a href="#contact" class="scroll">Order Now</a></div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6 price-agile-list">
+                  <div class="pricing text-center">
+                     <div class="pricing-top">
+                       <p><sup>?</sup><em>?</em></p>
+                        <span>拼单</span>
+                     </div>
+                     <ul>
+                        <li>外卖</li>
+                        <li>购物</li>
+                        <li>包邮</li>
+                        <li>More</li>
+                        <li class="__web-inspector-hide-shortcut__"></li>
+                     </ul>
+                     <div class="btn"><a href="#contact" class="scroll">Order Now</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="clearfix"> </div>
+      </div>
+      <!--//Price-tags -->
+      <!--testimonials -->
+      <div class="testimonials" id="testimonials">
+         <div class="container">
+            <h3 class="title ">组队活动通知</h3>
+            <div class="row client-agile-says">
+               <div class="col-lg-4 col-md-6 col-sm-6 item-clents">
+                  <div class="gap-one">
+                     <div class="client-text">
+                        <div class="clt-syas-agile">
+                           <h5>Mary</h5>
+                           <p>sitp项目组队</p>
+						   <p>项目名称：基于xxxx</p>
+						   <p>发起时间：2018-3-1</p>
+						   <p>项目人数：3/5</p>
+                        </div>
+                        <div class="img-text">
+                           <img src="images/c1.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-6 item-clents">
+                  <div class="gap-two">
+                     <div class="client-text ">
+                        <div class="clt-syas-agile">
+                           <h5>Lily</h5>
+                           <p>保安车组队</p>
+						   <p>地点：虹桥火车站</p>
+						   <p>发起时间：2018-2-1</p>
+						   <p>项目人数：2/4</p>
+                        </div>
+                        <div class="img-text">
+                           <img src="images/c3.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-6 item-clents ">
+                  <div class="gap-three">
+                     <div class="client-text ">
+                        <div class="clt-syas-agile">
+                           <h5>Sarah</h5>
+                           <p>图书包邮拼单</p>
+						   <p>发起时间：2018-3-15</p>
+						   <p>包邮金额：32/88</p>
+                        </div>
+                        <div class="img-text">
+                           <img src="images/c2.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-6 item-clents ">
+                  <div class="gap-four">
+                     <div class="client-text ">
+                        <div class="clt-syas-agile">
+                           <h5>John</h5>
+                           <p>网球组队</p>
+						   <p>地点：嘉定校区网球场</p>
+						   <p>发起时间：2018-4-1</p>
+						   <p>项目人数：2/3</p>
+                        </div>
+                        <div class="img-text">
+                           <img src="images/c4.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-6 item-clents">
+                  <div class="gap-five">
+                     <div class="client-text ">
+                        <div class="clt-syas-agile">
+                           <h5>Iric</h5>
+                           <p>外卖配送组队</p>
+						   <p>地点：嘉定校区图书馆</p>
+						   <p>发起时间：2018-2-1</p>
+						   <p>配送金额：12/25</p>
+						   <p>商家：黄焖鸡</p>
+                        </div>
+                        <div class="img-text">
+                           <img src="images/c5.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-6 item-clents">
+                  <div class="gap-six">
+                     <div class="client-text">
+                        <div class="clt-syas-agile ">
+                           <h5>David</h5>
+                           <p>羽毛球组队</p>
+						   <p>地点：嘉定校区体育馆</p>
+						   <p>发起时间：2018-2-11</p>
+						   <p>项目人数：2/3</p>
+						
+                        </div>
+                        <div class="img-text">
+                           <img src="images/c6.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="clearfix"> </div>
+         </div>
+      </div>
+      <!--//testimonials -->
+      <!-- contact -->
+      <div class="contact" id="contact">
+         <div class="container">
+            <h3 class="title clr">注册</h3>
+            <div class="row bottom-copy text-center">
+               <div class="col-lg-4 col-md-4 agileits-contact-addrs">
+                  <h4>地址 :</h4>
+                  <p>同济大学嘉定校区七号楼</p>
+               </div>
+               <div class="col-lg-4 col-md-4 agileits-contact-addrs">
+                  <h4>电话 :</h4>
+                  <p> (021) 2302 232</p>
+               </div>
+               <div class="col-lg-4 col-md-4 agileits-contact-addrs">
+                  <h4>Email :</h4>
+                  <p> <a href="mailto:info@example.com">info@tongji.edu.cn</a></p>
+               </div>
+            </div>
+            <div class="contact-us">
+               <form action="#" method="post">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input type="text" name="Name" placeholder="姓名" required="">
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input type="text" name="Last Name" placeholder="学号" required="">
+                     </div>
+                     <div class="col-lg-6 col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input type="email" name="Email" placeholder="学号密码" required=""> 
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input type="text" name="Phone" placeholder="电话号码" required="">
+                     </div>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <div class="styled-input">
+                     <textarea name="Message" placeholder="备注" required=""></textarea>
+                  </div>
+                  <div>
+                     <div class="click">
+                        <input type="submit" value="提交">
+                     </div>
+                  </div>
+               </form>
+               <div class="clearfix"> </div>
+            </div>
+         </div>
+      </div>
+      <div class="contact-map">
+         <div class="map-grid">
+            <iframe src=""></iframe>
+         </div>
+      </div>
+      <!-- //contact-->
+      <!-- footer-->
+      <footer>
+         <div class="container">
+            <div class="agileits-contact-addrss">
+               <div class="row top-gap">
+                  <div class="col-md-7 header-side">
+                     <p>Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+                  </div>
+                  <div class="col-md-5 header-side">
+                     <div class="buttom-social-grids">
+                        <ul>
+                           <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                           <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                           <li><a href="#"><span class="fa fa-rss"></span></a></li>
+                           <li><a href="#"><span class="fa fa-vk"></span></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--//footer-->
+      <!--js working-->
+      <script src='js/jquery-2.2.3.min.js'></script>
+      <!--//js working-->
+      <!--responsiveslides banner-->
+      <script src="js/responsiveslides.min.js"></script>
+      <script>
+         // You can also use "$(window).load(function() {"
+         $(function () {
+         	// Slideshow 4
+         	$("#slider4").responsiveSlides({
+         		auto: true,
+         		pager:true,
+         		nav: false,
+         		speed: 900,
+         		namespace: "callbacks",
+         		before: function () {
+         			$('.events').append("<li>before event fired.</li>");
+         		},
+         		after: function () {
+         			$('.events').append("<li>after event fired.</li>");
+         		}
+         	});
+         
+         });
+      </script>
+      <!--// responsiveslides banner-->	  
+      <!-- OnScroll-Number-Increase-JavaScript -->
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.countup.js"></script>
+      <script>
+         $('.counter').countUp();
+      </script>
+      <!-- //OnScroll-Number-Increase-JavaScript -->
+      <!-- start-smoth-scrolling -->
+      <script src="js/move-top.js"></script>
+      <script src="js/easing.js"></script>
+      <script>
+         jQuery(document).ready(function ($) {
+         	$(".scroll").click(function (event) {
+         		event.preventDefault();
+         		$('html,body').animate({
+         			scrollTop: $(this.hash).offset().top
+         		}, 1000);
+         	});
+         });
+      </script>
+      <!-- start-smoth-scrolling -->
+      <!-- for-bottom-to-top smooth scrolling -->
+      <script>
+         $(document).ready(function () {
+         	/*
+         		var defaults = {
+         		containerID: 'toTop', // fading element id
+         		containerHoverID: 'toTopHover', // fading element hover id
+         		scrollSpeed: 1200,
+         		easingType: 'linear' 
+         		};
+         	*/
+         	$().UItoTop({
+         		easingType: 'easeOutQuart'
+         	});
+         });
+      </script>
+      <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+      <!-- //for-bottom-to-top smooth scrolling -->
+      <!--bootstrap working-->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- //bootstrap working-->
+         <!-- jQuery-Photo-filter-lightbox-Gallery-plugin -->
+      <script src="js/jquery-1.7.2.js"></script>
+      <script src="js/jquery.quicksand.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/jquery.prettyPhoto.js" ></script>
+      <!-- //jQuery-Photo-filter-lightbox-Gallery-plugin -->
+   </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>home</title>
+      <!--meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="" />
+      <script>
+         addEventListener("load", function () {
+         	setTimeout(hideURLbar, 0);
+         }, false);
+         
+         function hideURLbar() {
+         	window.scrollTo(0, 1);
+         }
+      </script>
+	  
+	  <script>
+	$(document).ready(function(){
+		window.onload(function(){
+			$.post("./php/getuser.php",
+			{
+				userid:$_SESSION['userid']
+			},
+			function(username){
+				$(#name_out).val(username);
+			});
+		});
+	});
+</script>
+	  
+	  
+	  <script>
+	$(document).ready(function(){
+		$("#button").click(function(){
+			$.post("./php/faqi.php",
+			{
+				activity_name:$("#activity_name").val(),
+				activity_people_num:$("#activity_people_num").val(),
+				activity_place:$("#activity_place").val(),
+				activity_main_phone:$("#activity_main_phone").val(),
+				activity_data:$("#activity_data").val(),
+				activity_message:$("#activity_message").val()
+			},
+			function(ret){
+				if(ret == "true")
+				{
+				    windows.location.href="home.html";
+				}
+				else
+				{ 
+				    alert "注册出错！";
+					return;
+				}
+			});
+		});
+	});
+</script>
+      <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/font-awesome.css" rel="stylesheet">
+      <!-- //font-awesome icons -->
+      <!--stylesheets-->
+      <!--jquery-css counter time-->
+      <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
+      <!--prettyPhoto slider-->
+      <!--stylesheets-->
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="http://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+   </head>
+   <body style="background-image:C:\Users\asud66\Desktop\模板\images\g4.jpg; background-repeat:repeat-y;">
+        
+            
+      <!--//testimonials -->
+      <!-- contact -->
+      <div class="contact" id="contact">
+         <div class="container">
+            <h3 class="title clr">发起体育活动</h3>
+            
+            <div class="contact-us">
+               <form action="faqi_sport.php" method="post">
+                  <div class="row">
+				  
+           			<div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <div id = "activity_name" type="text" required="">项目名称</div>
+						<select name="Choice">
+                           <option>足球</option>
+                           <option>篮球</option>
+                           <option>乒乓球</option>
+                           <option>羽毛球</option>
+                           <option>网球</option>
+						   <option>排球</option>
+                        </select>
+                    </div>
+					 
+                    <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "activity_people_num" type="text" name="num" placeholder="项目最低人数" required="">
+                    </div>
+					 
+					<div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "activity_people_num" type="text" name="num" placeholder="项目最高人数" required="">
+                    </div>
+					 
+                    <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "activity_place" type="text" name="place" placeholder="活动地点" required="">
+                    </div>
+					 
+					<div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "activity_main_phone" type="text" name="phone" placeholder="电话号码" required="">
+                    </div>
+					 
+					<div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "activity_start_time" type="text" name="data" placeholder="活动开始日期" required="">
+                    </div>
+					 
+					<div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "activity_stop_time" type="text" name="data" placeholder="活动截止日期" required="">
+                    </div>
+                </div>
+				  
+                <div class="clearfix"> </div>
+                <div class="styled-input">
+                    <textarea id = "activity_description" name="Message" placeholder="活动描述" required=""></textarea>
+                </div>
+				  
+                <div>
+                    <div id="button" class="click">
+                        <input type="submit" value="提交">
+                    </div>
+                </div>
+               </form>
+               <div class="clearfix"> </div>
+            </div>
+         </div>
+      </div>
+     
+      <!-- //contact-->
+    
+   </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>home</title>
+      <!--meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="" />
+      <script>
+         addEventListener("load", function () {
+         	setTimeout(hideURLbar, 0);
+         }, false);
+         
+         function hideURLbar() {
+         	window.scrollTo(0, 1);
+         }
+      </script>
+	  
+	  <script>
+	$(document).ready(function(){
+		window.onload(function(){
+			$.post("./php/getuser.php",
+			{
+				userid:$_SESSION['userid']
+			},
+			function(username){
+				$(#name_out).val(username);
+			});
+		});
+	});
+</script>
+	  
+	  
+	  <script>
+	$(document).ready(function(){
+		$("button").click(function(){
+			$.post("./php/zhuce.php",
+			{
+				userphone:$("#user_phone").val(),
+				useremail:$("#email").val(),
+				userqq:$("#user_qq").val(),
+				useraddr:$("#user_addr").val()
+			},
+			function(ret){
+				if(ret == "true")
+				{
+				    windows.location.href="home.html";
+				}
+				else
+				{ 
+				    alert "注册出错！";
+					return;
+				}
+			});
+		});
+	});
+</script>
+      <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/font-awesome.css" rel="stylesheet">
+      <!-- //font-awesome icons -->
+      <!--stylesheets-->
+      <!--jquery-css counter time-->
+      <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
+      <!--prettyPhoto slider-->
+      <!--stylesheets-->
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="http://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+   </head>
+   <body style="background-image:C:\Users\asud66\Desktop\模板\images\g4.jpg; background-repeat:repeat-y;">
+        
+            
+      <!--//testimonials -->
+      <!-- contact -->
+      <div class="contact" id="contact">
+         <div class="container">
+            <h3 class="title clr">注册</h3>
+            <div class="row bottom-copy text-center">
+            
+			   <div class="col-lg-4 col-md-4 agileits-contact-addrs">
+                  <h4>亲爱的 :</h4>
+                  <p> <a id="name_out" href="mailto:info@example.com">***</a></p>
+               </div>
+			   
+            </div>
+            <div class="contact-us">
+               <form action="#" method="post">
+                  <div class="row">
+           
+                     <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "user_phone" type="text" name="Phone" placeholder="电话号码" required="">
+                     </div>
+					 <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "user_email" type="text" name="email" placeholder="email" required="">
+                     </div>
+					 <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "user_qq" type="text" name="qq" placeholder="QQ" required="">
+                     </div>
+					 <div class="col-lg-6 col-md-6 col-sm-6 styled-input">
+                        <input id = "user_addr" type="text" name="addr" placeholder="住址" required="">
+                     </div>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <div class="styled-input">
+                     <textarea id = "user_Message" name="Message" placeholder="备注" required=""></textarea>
+                  </div>
+                  <div>
+                     <div class="click">
+                        <input type="submit" value="提交">
+                     </div>
+                  </div>
+               </form>
+               <div class="clearfix"> </div>
+            </div>
+         </div>
+      </div>
+      
+   </body>
+</html>

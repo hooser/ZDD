@@ -1,0 +1,137 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body, html {
+  font-family: 'Microsoft YaHei', 'Hiragino Sans GB', Helvetica,Arial, 'Lucida Grande', sans-serif; }
+
+ul li a {
+  text-decoration: none; }
+
+.banner2 {
+  background-size: 100% 100%;
+  height: 415px;
+  margin-top: -22px; }
+
+.banner2 h1 {
+  position: relative;
+  font-size: 40px;
+  top: 100px;
+  text-align: center; }
+
+.header h2 {
+  font-size: 35px;
+  color: #1654B2;
+  font-weight: bold;
+  text-align: center; }
+
+.header1 {
+  width: 12%;
+  border: 1px solid #999;
+  left: 44%;
+  position: absolute;
+  height: 30px;
+  margin-top: 2px; }
+
+.header1 h4 {
+  top: -5px;
+  position: relative;
+  text-align: center; }
+
+/*引入头部文件*/
+.banner2 {
+  background-image: url(../image/lala3.png); }
+
+.form1 {
+  position: relative;
+  margin-left: 26%;
+  top: 80px; }
+
+.form1 button {
+  position: relative;
+  margin-left: 19%;
+  width: 136px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #286CC0;
+  border: 1px solid #2766AF;
+  color: #fff;
+  font-size: 19px;
+  top: 30px; }
+
+label span {
+  top: -70px;
+  position: relative; }
+
+.strong {
+  width: 500px;
+  height: 200px;
+  top: 20px;
+  position: relative; }
+
+.footer {
+  width: 100%;
+  top: 150px;
+  position: relative; }
+
+.footer1 {
+  background-color: #2C333F;
+  height: 60px; }
+
+.footer2 {
+  background-color: #252B35;
+  height: 140px;
+  color: #7B7E86;
+  text-align: center;
+  font-size: 12px; }
+
+label {
+  display: inline-block; }
+
+input {
+  border: 1px solid #8492AB;
+  width: 135px;
+  height: 30px;
+  border-radius: 5px; }
+
+select {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #8492AB; }
+
+ul li {
+  list-style: none;
+  line-height: 60px; }
+
+ul li a {
+  text-decoration: none; }
+
+label span {
+  position: relative;
+  top: 1px; }
+
+.label-span {
+  position: relative;
+  top: -75px; }
+
+@media screen and (max-width: 768px) {
+  select {
+    background-color: #fff;
+    color: #000;
+    width: 35px; }
+
+  label span {
+    position: relative;
+    top: -15px; }
+
+  .label-span {
+    position: relative;
+    margin-top: -15px; }
+
+  .strong {
+    width: 200px;
+    height: 150px; } }
+
+/*# sourceMappingURL=style4.css.map */
