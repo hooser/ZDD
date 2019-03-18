@@ -42,7 +42,6 @@ create new grouping activities, you can search activities and you can take part 
     mark table:
     ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/mark_table.JPG)
     Part of the pages are shown below.
-    
     home page:
     ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/homepage.JPG)
     grouping information page:
