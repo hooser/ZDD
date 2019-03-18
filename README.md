@@ -18,7 +18,7 @@ and so on. Anyone interested in your project will find you.
 the dataflow picture:
 ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/p1.JPG)
 
-the function module of the program:
+the module of the program:
 ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/p_function.JPG)
    The program has six function modules containing sport module,learn module, carpool module, on-line shopping module, 
 user-management module, activity-evaluating module and safety-guaranting module. In the four activity modules, you will
