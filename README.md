@@ -41,3 +41,14 @@ create new grouping activities, you can search activities and you can take part 
     ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/sport_type_table.JPG)
     mark table:
     ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/mark_table.JPG)
+    Part of the pages are shown below.
+    home page:
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/homepage.JPG)
+    grouping information page:
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/information.JPG)
+    take part into activities page:
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/takepart.JPG)
+    the team i take part in and i create page:
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/myteam.JPG)
+    error occurs:
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/pictures/error.JPG)
