@@ -16,26 +16,28 @@ and so on. Anyone interested in your project will find you.
   3.4. Similarly, you will find it useful in making groups to take sports and carpooling
 
 the dataflow picture:
-![oooops!!](https://github.com/hooser/ZDD/blob/master/image/p_dataflow.JPG)
+![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/p1.JPG)
 
 the function module of the program:
-![oooops!!](https://github.com/hooser/ZDD/blob/master/image/p_function.JPG)
+![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/p_function.JPG)
    The program has six function modules containing sport module,learn module, carpool module, on-line shopping module, 
 user-management module, activity-evaluating module and safety-guaranting module. In the four activity modules, you will
 create new grouping activities, you can search activities and you can take part in it.
-    The function of 
+    the function of all the database:
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/dbf1.JPG)
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/dbf2.JPG)
     Some of the database design is shown below.
     sport table:
-    ![oooops!!](https://github.com/hooser/ZDD/blob/master/image/sport_table.JPG)
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/sport_table.JPG)
     trip table:
-    ![oooops!!](https://github.com/hooser/ZDD/blob/master/image/trip_table.JPG)
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/trip_table.JPG)
     study table:
-    ![oooops!!](https://github.com/hooser/ZDD/blob/master/image/study_table.JPG)
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/study_table.JPG)
     snacks table:
-    ![oooops!!](https://github.com/hooser/ZDD/blob/master/image/snacks_table.JPG)
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/snacks_table.JPG)
     join sport table:
-    ![oooops!!](https://github.com/hooser/ZDD/blob/master/image/join_sport_table.JPG)
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/join_sport_table.JPG)
     sport type table:
-    ![oooops!!](https://github.com/hooser/ZDD/blob/master/image/sport_type_table.JPG)
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/sport_type_table.JPG)
     mark table:
-    ![oooops!!](https://github.com/hooser/ZDD/blob/master/image/mark_table.JPG)
+    ![oooops!!](https://github.com/hooser/ZDD/blob/master/picture/mark_table.JPG)
